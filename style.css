@@ -531,6 +531,66 @@ body.activeTabCart .container{
     font-size: 1rem;
     padding: 10px;
 }
+
+@media(max-width: 950px){
+
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        display: none;
+    }
+    .navlist a {
+        display: block;
+        padding: 0;
+        margin: 0px 0px 25px 0px;
+        font-size: 1.7rem;
+    }
+    .navlist.open{
+        left: 0;
+    }
+    .hero{
+        display: block;
+        margin: auto;
+        height: auto;
+    }
+    .app{
+        margin: 50%;
+    }
+    .cartTab{
+        right: -400px;
+        transition: 0.5s;
+    }
+    .testimonial-box-container {
+        grid-template-columns: 1fr;
+        margin-right: 2%;
+    }
+    .testimonial-box{
+        width:45%;
+        padding: 5px;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+
+    .slideshow-container{
+        display: grid;
+        margin: auto;
+        text-align: center;
+    }
+    .testimonial-box{
+        width:100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+
+    .about-img .slideshow-container {
+        grid-template-columns: 1fr;
+        margin-top: 10%;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .listProduct{
         grid-template-columns: repeat(3, 1fr);
